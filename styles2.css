@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Nunito", sans-serif;
+}
+
+ol, 
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(148, 77, 2);
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 a {
+color: white;
+font-size: 1.5em;
+padding: 0.5em;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.2em; 
+}
+
+header nav ul li a {
+    color: white;
+    padding-right: 1em;
+}
+
+.acerca-de {
+    width: 300px;
+    text-align: right;
+    padding-right: 3em;
+    cursor: default;
+}
+
+.acerca-de h2 {
+    color: rgb(148, 77, 2);
+}
+
+.acerca-imagen img {
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+#seccion-principal {
+    width: 100%;
+}
+
+#seccion-principal .seccion-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: rgb(247,247,231);
+}
+
+.seccion-2 {
+    display: block;
+    width: 100%;
+}
+
+h2 {
+    color: rgb(135, 71, 2);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.seccion-3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.trabajos {
+    width: 325px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    margin: 25px;   
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.trabajos img {
+    width: 100%;
+    height: 220px;
+}
+
+.trabajos .contenido {
+padding: 15px;
+text-align: center;
+}
+
+.trabajos .contenido p{
+    color: rgb(148, 77, 2);
+}
+
+.trabajos .contenido h3{
+    color: rgb(135, 71, 2);
+    margin-bottom: 8px;
+}
+
+.trabajos .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(219, 141, 57);
+    border: 1px solid rgb(219, 141, 57);
+    border-radius: 5px;
+}
+
+.seccion-5 footer {
+    background-color: rgb(148, 77, 2);
+    color: bisque;
+    padding-left: 20px;
+    padding: 15px;
+}
+
+.seccion-5 footer h3 {
+    padding-bottom: 8px;
+}
+
+.seccion-5 footer ul li a {
+    color: white;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+ /* ------------- Encabezado Contacto ------------- */ 
+    footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+ /* ------------- Formulario ------------- */ 
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+
+/* ------------- Campos del Formulario ------------- */
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+  /* ------------- Para textos largos------------- */
+
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+    width: 100%;
+  }
+
+    .form-row button {
+        font-size: 16px;
+        font-weight: bold;
+      
+        color: #ffffff;
+        background-color: rgb(148, 77, 2);
+      
+        border: none;
+        border-radius: 3px;
+      
+        padding: 10px 40px;
+        cursor: pointer;
+      }
+      
+      .form-row button:hover {
+        background-color: rgb(219, 141, 57);
+      }
+      
+      .form-row button:active {
+        background-color: rgb(135, 71, 2);
+      }
+      
+
+    .seccion-4 h1 {
+        color: rgb(148, 77, 2);
+    }  
+    
+/* ----------- Para Pantallas de más de 700px 
+@media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 50px;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .form-row input[type="text"] {
+      width: 250px;
+      height: initial;
+    }
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+    }
+
+    .form-row textarea {
+      width: 250px;
+    } 
+ 
+    .form-row button {
+          margin-left: 120px;
+        } 
+  } ----------- */
+  
+
+/* MEDIA QUERIES */
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+    header {
+      background-color: rgb(70, 66, 60);
+    }
+
+    .checkbtn {
+        display: block;
+      }
+
+    #encabezado ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: gray;
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    #check:checked ~ ul {
+        left: 0%;
+        display: block;
+    }
+
+    #encabezado nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    #encabezado nav ul li a {
+        font-size: 20px;
+    }
+
+    #check:checked ~ .checkbtn {
+        color: gray;
+    }   
+}
+
